@@ -1,0 +1,21 @@
+# Python virtual environments & caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configurations (Optional but clean)
+.vscode/
+.idea/
+
+# Local logs or data dumps at root
+*.log
