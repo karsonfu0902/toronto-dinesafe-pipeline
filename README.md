@@ -28,8 +28,14 @@ toronto-dinesafe-pipeline/
 ├── dinesafe-map/              # Frontend Streamlit Visualization Application
 │   └── streamlit_app.py       # Pydeck geo-spatial density application
 │
-└── scripts/                   # Snowflake Initialization
-    └── dinesafe_snowflake_dbt_airflow_proj.sql
+├── scripts/                   # Snowflake Initialization
+│   └── dinesafe_snowflake_dbt_airflow_proj.sql
+│
+├── .gitignore
+│
+├── README.md
+│
+└── requirements.txt
 ```
 
 ## Getting Started
