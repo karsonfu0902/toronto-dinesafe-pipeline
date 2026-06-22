@@ -26,6 +26,9 @@ toronto-dinesafe-pipeline/
 │   └── Dockerfile             # Custom container setup with isolated dbt venv
 │
 ├── dinesafe-map/              # Frontend Streamlit Visualization Application
+│   ├── .streamlit
+│   ├── pyproject.toml
+│   ├── snowflake.yml
 │   └── streamlit_app.py       # Pydeck geo-spatial density application
 │
 ├── scripts/                   # Snowflake Initialization
