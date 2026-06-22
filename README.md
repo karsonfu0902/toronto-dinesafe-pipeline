@@ -30,21 +30,25 @@ toronto-dinesafe-pipeline/
 │
 └── scripts/                   # Snowflake Initialization
     └── dinesafe_snowflake_dbt_airflow_proj.sql
+```
 
-### Getting Started
+## Getting Started
 
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git](https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git)
    cd toronto-dinesafe-pipeline
+   ```
 
 2. Start the Orchestration Layer (Airflow):
     ```bash
     cd dbt-dag
     astro dev start
+    ```
 
 3. Run the Analytics Dashboard:
     ```bash
     cd ../dinesafe-map
     pip install -r ../requirements.txt
     streamlit run streamlit_app.py
+    ```
