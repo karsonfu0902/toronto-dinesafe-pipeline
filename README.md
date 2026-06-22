@@ -9,6 +9,8 @@ An end-to-end data product that automates the ingestion, transformation, data qu
 * **Data Quality Framework:** Upstream schema assertions (uniqueness, nullability, and referential integrity) evaluated via dbt test layers.
 * **Analytics Frontend:** Python-based Streamlit application rendering an algorithmic, severity-weighted Pydeck `HeatmapLayer`.
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/9ce4aeb8-5b71-4a4f-98f8-2acd2b0b25e2" />
+
 ---
 
 ## Repository Structure
