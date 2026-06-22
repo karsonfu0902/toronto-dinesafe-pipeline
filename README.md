@@ -34,6 +34,13 @@ toronto-dinesafe-pipeline/
 
 ## Getting Started
 
+### Prerequisites
+* Git
+* Docker Desktop (or Docker Engine)
+* Astronomer Astro CLI
+* Python 3.11+
+* Snowflake account and credentials for `analytics_zone_db`
+
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git
