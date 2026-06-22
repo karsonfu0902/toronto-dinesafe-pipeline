@@ -36,7 +36,7 @@ toronto-dinesafe-pipeline/
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git](https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git)
+   git clone https://github.com/karsonfu0902/toronto-dinesafe-pipeline.git
    cd toronto-dinesafe-pipeline
    ```
 
