@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: toronto_open_data
+    database: raw_zone_db
+    schema: toronto_open_data
+    tables:
+      - name: raw_dinesafe
+        description: Raw municipal food premises inspection records from Toronto Open Data.
+        columns:
+          - name: _id
+            tests:
+              - unique
+              - not_null

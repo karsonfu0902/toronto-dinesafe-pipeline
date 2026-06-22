@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: dim_establishments
+    description: Master lookup directory of deduplicated Toronto food premises.
+    columns:
+      - name: establishment_id
+        description: Primary key for each unique business venue.
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_inspections
+    description: Central transactional log of every municipal inspection and recorded infraction.
+    columns:
+      - name: fact_inspection_key
+        description: Primary key identifying each unique infraction event row.
+        tests:
+          - unique
+          - not_null
+      - name: establishment_id
+        description: Foreign key linking back to dim_establishments.
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                  to: ref('dim_establishments')
+                  field: establishment_id
